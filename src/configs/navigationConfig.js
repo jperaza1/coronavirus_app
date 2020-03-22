@@ -15,7 +15,8 @@ const navigationConfig = [
     type: "item",
     icon: <Icon.Map size={20} />,
     permissions: ["admin", "editor"],
-    navLink: "/Paises"
+    navLink: "/Paises",
+    parentOf: ["/Paises/:_id"]
   }
 ];
 

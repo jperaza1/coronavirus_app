@@ -11,11 +11,14 @@ import {
   CardBody,
   Row,
   Col,
-  CardImg
+  CardImg,
+  CardFooter,
+  Button
 } from "reactstrap";
+import { useParams, Link } from "react-router-dom";
 
 export default function InfoPais(props) {
-  const { _id } = props;
+  const { _id } = useParams();
   const { data, loading, error } = useQuery(GET_PAIS, {
     variables: { _id }
   });
@@ -100,6 +103,11 @@ export default function InfoPais(props) {
               </Col>
             </Row>
           </CardBody>
+          <CardFooter>
+            <Link to={"/Paises"}>
+              <Button color="danger">Regresar</Button>
+            </Link>
+          </CardFooter>
         </Card>
       </>
     );

@@ -13,6 +13,7 @@ const Page2 = lazy(() => import("./views/pages/Page2"));
 const login = lazy(() => import("./views/pages/authentication/login/Login"));
 
 const Paises = lazy(() => import("./views/Paises/Paises"));
+const InfoPais = lazy(() => import("./components/InfoPais/InfoPais"));
 
 // Set Layout and Component Using App Route
 const RouteConfig = ({
@@ -63,7 +64,8 @@ class AppRouter extends React.Component {
       <Router history={history}>
         <Switch>
           <AppRoute exact path="/" component={Home} />
-          <AppRoute path="/Paises" component={Paises} />
+          <AppRoute path="/Paises" component={Paises} exact />
+          <AppRoute path="/Paises/:_id" component={InfoPais} />
         </Switch>
       </Router>
     );

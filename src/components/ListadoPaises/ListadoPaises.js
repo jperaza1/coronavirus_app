@@ -8,6 +8,7 @@ import {
   Row,
   Col
 } from "reactstrap";
+import { Link } from "react-router-dom";
 import { useQuery } from "@apollo/react-hooks";
 import InfoPais from "../../components/InfoPais/InfoPais";
 
@@ -53,14 +54,15 @@ export default function ListadoPaises(props) {
                         <div className="icon-section">
                           <div className="avatar avatar-stats p-50 m-0 bg-rgba-primary">
                             <div className="avatar-content">
-                              {pais.bandera != null && (
-                                <img
-                                  src={`https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/${pais.bandera.toLowerCase()}.svg`}
-                                  width="100%"
-                                  height="100%"
-                                  onClick={() => setId(pais._id)}
-                                />
-                              )}
+                              <Link to={`/Paises/${pais._id}`}>
+                                {pais.bandera != null && (
+                                  <img
+                                    src={`https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/${pais.bandera.toLowerCase()}.svg`}
+                                    width="100%"
+                                    height="140%"
+                                  />
+                                )}
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -77,9 +79,6 @@ export default function ListadoPaises(props) {
                 </Row>
               </CardBody>
             </Card>
-          </Col>
-          <Col>
-            <InfoPais _id={id} />
           </Col>
         </Row>
       </>
