@@ -44,7 +44,7 @@ export default function MasMuertes(props) {
       <>
         <Card>
           <CardHeader>
-            <CardTitle>Paises con mas Muertes Hoy</CardTitle>
+            <CardTitle>Países con más muertes hoy</CardTitle>
           </CardHeader>
           <CardBody>
             <Row>

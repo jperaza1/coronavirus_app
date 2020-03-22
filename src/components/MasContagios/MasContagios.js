@@ -41,7 +41,7 @@ export default function MasContagios(props) {
       <>
         <Card>
           <CardHeader>
-            <CardTitle>Paises con mas Contagios Hoy</CardTitle>
+            <CardTitle>Países con más contagios hoy</CardTitle>
           </CardHeader>
           <CardBody>
             <Row>
