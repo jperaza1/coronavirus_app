@@ -1,0 +1,42 @@
+{
+  "files": {
+    "static/js/0.087b3ca9.chunk.js": "/static/js/0.087b3ca9.chunk.js",
+    "static/js/0.087b3ca9.chunk.js.map": "/static/js/0.087b3ca9.chunk.js.map",
+    "main.css": "/static/css/main.4048f8c2.chunk.css",
+    "main.js": "/static/js/main.0b39a9c7.chunk.js",
+    "main.js.map": "/static/js/main.0b39a9c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06eddbe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06eddbe.js.map",
+    "static/js/3.fff26cb5.chunk.js": "/static/js/3.fff26cb5.chunk.js",
+    "static/js/3.fff26cb5.chunk.js.map": "/static/js/3.fff26cb5.chunk.js.map",
+    "static/css/4.938c68d3.chunk.css": "/static/css/4.938c68d3.chunk.css",
+    "static/js/4.e36fb643.chunk.js": "/static/js/4.e36fb643.chunk.js",
+    "static/js/4.e36fb643.chunk.js.map": "/static/js/4.e36fb643.chunk.js.map",
+    "static/css/5.5b7d99f3.chunk.css": "/static/css/5.5b7d99f3.chunk.css",
+    "static/js/5.7a5a5f1c.chunk.js": "/static/js/5.7a5a5f1c.chunk.js",
+    "static/js/5.7a5a5f1c.chunk.js.map": "/static/js/5.7a5a5f1c.chunk.js.map",
+    "static/js/6.bfe52ff2.chunk.js": "/static/js/6.bfe52ff2.chunk.js",
+    "static/js/6.bfe52ff2.chunk.js.map": "/static/js/6.bfe52ff2.chunk.js.map",
+    "static/js/7.8d3db19b.chunk.js": "/static/js/7.8d3db19b.chunk.js",
+    "static/js/7.8d3db19b.chunk.js.map": "/static/js/7.8d3db19b.chunk.js.map",
+    "static/js/8.8ee7253a.chunk.js": "/static/js/8.8ee7253a.chunk.js",
+    "static/js/8.8ee7253a.chunk.js.map": "/static/js/8.8ee7253a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6e0421b5f6ea98fff11e73ac6445c06f.js": "/precache-manifest.6e0421b5f6ea98fff11e73ac6445c06f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/4.938c68d3.chunk.css.map": "/static/css/4.938c68d3.chunk.css.map",
+    "static/css/5.5b7d99f3.chunk.css.map": "/static/css/5.5b7d99f3.chunk.css.map",
+    "static/css/main.4048f8c2.chunk.css.map": "/static/css/main.4048f8c2.chunk.css.map",
+    "static/js/0.087b3ca9.chunk.js.LICENSE.txt": "/static/js/0.087b3ca9.chunk.js.LICENSE.txt",
+    "static/js/3.fff26cb5.chunk.js.LICENSE.txt": "/static/js/3.fff26cb5.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/vuesax-login-bg.eb4e894d.jpg",
+    "static/media/google.svg": "/static/media/google.222e25f5.svg",
+    "static/media/login.png": "/static/media/login.fd58a052.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a06eddbe.js",
+    "static/js/3.fff26cb5.chunk.js",
+    "static/css/main.4048f8c2.chunk.css",
+    "static/js/main.0b39a9c7.chunk.js"
+  ]
+}
